@@ -1,0 +1,163 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Vika\\universiti\\OOP\\HobbyTracker\\HobbyTracker\\HobbyTracker.Tests\\HobbyTracker.Tests.csproj": {}
+  },
+  "projects": {
+    "D:\\Vika\\universiti\\OOP\\HobbyTracker\\HobbyTracker\\HobbyTracker.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Vika\\universiti\\OOP\\HobbyTracker\\HobbyTracker\\HobbyTracker.csproj",
+        "projectName": "HobbyTracker",
+        "projectPath": "D:\\Vika\\universiti\\OOP\\HobbyTracker\\HobbyTracker\\HobbyTracker.csproj",
+        "packagesPath": "C:\\Users\\Vika\\.nuget\\packages\\",
+        "outputPath": "D:\\Vika\\universiti\\OOP\\HobbyTracker\\HobbyTracker\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Vika\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0-windows"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0-windows7.0": {
+            "targetAlias": "net8.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "dependencies": {
+            "MySqlConnector": {
+              "target": "Package",
+              "version": "[2.6.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.414/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Vika\\universiti\\OOP\\HobbyTracker\\HobbyTracker\\HobbyTracker.Tests\\HobbyTracker.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Vika\\universiti\\OOP\\HobbyTracker\\HobbyTracker\\HobbyTracker.Tests\\HobbyTracker.Tests.csproj",
+        "projectName": "HobbyTracker.Tests",
+        "projectPath": "D:\\Vika\\universiti\\OOP\\HobbyTracker\\HobbyTracker\\HobbyTracker.Tests\\HobbyTracker.Tests.csproj",
+        "packagesPath": "C:\\Users\\Vika\\.nuget\\packages\\",
+        "outputPath": "D:\\Vika\\universiti\\OOP\\HobbyTracker\\HobbyTracker\\HobbyTracker.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Vika\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0-windows"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0-windows7.0": {
+            "targetAlias": "net8.0-windows",
+            "projectReferences": {
+              "D:\\Vika\\universiti\\OOP\\HobbyTracker\\HobbyTracker\\HobbyTracker.csproj": {
+                "projectPath": "D:\\Vika\\universiti\\OOP\\HobbyTracker\\HobbyTracker\\HobbyTracker.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.8.0, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.14.0, )"
+            },
+            "NUnit.Analyzers": {
+              "target": "Package",
+              "version": "[3.9.0, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.414/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

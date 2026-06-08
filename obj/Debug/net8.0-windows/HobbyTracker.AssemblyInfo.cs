@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HobbyTracker")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5acf52d53e4106fa283a9e79882de29371b101a4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5a534dafaf922febdc4af732a5536e6867925a2c")]
 [assembly: System.Reflection.AssemblyProductAttribute("HobbyTracker")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HobbyTracker")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
