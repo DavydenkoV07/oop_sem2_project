@@ -1,0 +1,18 @@
+[
+  {
+    "Id": "f68931a1-370a-407f-ab5a-997ac38ee2aa",
+    "Name": "Films",
+    "Items": [
+      {
+        "Id": "ee1b55f2-0279-460b-80ea-6c16d1e57be1",
+        "Title": "X-men",
+        "Description": null,
+        "ReleaseYear": null,
+        "PersonalComment": null,
+        "Link": null,
+        "Status": 0,
+        "DateAdded": "2026-06-08T10:56:34.1969115+03:00"
+      }
+    ]
+  }
+]
