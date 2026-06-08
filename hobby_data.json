@@ -14,5 +14,21 @@
         "DateAdded": "2026-06-08T11:14:28.6754966+03:00"
       }
     ]
+  },
+  {
+    "Id": "be90d82c-f670-44ff-8a10-133b90301e98",
+    "Name": "Books",
+    "Items": [
+      {
+        "Id": "fecc0b5e-cd2c-4ef7-a59f-085531dd2253",
+        "Title": "Lord of the rings",
+        "Description": "",
+        "ReleaseYear": 1954,
+        "PersonalComment": "",
+        "Link": "https://en.wikipedia.org/wiki/The_Lord_of_the_Rings",
+        "Status": 1,
+        "DateAdded": "2026-06-08T18:22:45.1254302+03:00"
+      }
+    ]
   }
 ]
