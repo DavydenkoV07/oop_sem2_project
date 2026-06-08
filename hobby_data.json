@@ -4,14 +4,14 @@
     "Name": "Films",
     "Items": [
       {
-        "Id": "ee1b55f2-0279-460b-80ea-6c16d1e57be1",
-        "Title": "X-men",
-        "Description": null,
-        "ReleaseYear": null,
-        "PersonalComment": null,
-        "Link": null,
+        "Id": "a8ac21da-745e-4375-a400-ce62168019ce",
+        "Title": "Титанік",
+        "Description": "",
+        "ReleaseYear": 2005,
+        "PersonalComment": "",
+        "Link": "",
         "Status": 0,
-        "DateAdded": "2026-06-08T10:56:34.1969115+03:00"
+        "DateAdded": "2026-06-08T11:14:28.6754966+03:00"
       }
     ]
   }

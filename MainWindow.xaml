@@ -42,14 +42,14 @@
             <TextBlock x:Name="SelectedCategoryTextBlock" Text="Оберіть розділ ліворуч" 
                        FontSize="20" FontWeight="Bold" Grid.Row="0" Margin="0,0,0,10"/>
 
-            <!-- Форма додавання нового елемента -->
+            <!-- Панель додавання (тепер тут тільки кнопка, бо назву ми вводимо в новому вікні) -->
             <StackPanel x:Name="AddItemPanel" Grid.Row="1" Orientation="Horizontal" Margin="0,0,0,10" IsEnabled="False">
-                <TextBox x:Name="NewItemTitleTextBox" Width="200" Padding="5" Margin="0,0,10,0" />
-                <Button Content="Додати запис" Width="120" Padding="5" Click="AddItem_Click"/>
+                <Button Content="Додати новий запис" Width="150" Padding="5" Click="AddItem_Click"/>
             </StackPanel>
 
-            <!-- Таблиця елементів -->
-            <DataGrid x:Name="ItemsDataGrid" Grid.Row="2" AutoGenerateColumns="False" IsReadOnly="True" RowHeight="30">
+            <!-- Таблиця елементів (додано MouseDoubleClick) -->
+            <DataGrid x:Name="ItemsDataGrid" Grid.Row="2" AutoGenerateColumns="False" IsReadOnly="True" RowHeight="30"
+                      MouseDoubleClick="ItemsDataGrid_MouseDoubleClick">
                 <DataGrid.Columns>
                     <DataGridTextColumn Header="Назва" Binding="{Binding Title}" Width="*"/>
                     <DataGridTextColumn Header="Рік" Binding="{Binding ReleaseYear}" Width="80"/>
