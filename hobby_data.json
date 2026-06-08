@@ -12,6 +12,16 @@
         "Link": "",
         "Status": 0,
         "DateAdded": "2026-06-08T11:14:28.6754966+03:00"
+      },
+      {
+        "Id": "c541c38f-0d85-4381-a1b0-dca5a28e3a32",
+        "Title": "Spider-man",
+        "Description": "",
+        "ReleaseYear": 2007,
+        "PersonalComment": "my favorite movie",
+        "Link": "",
+        "Status": 2,
+        "DateAdded": "2026-06-08T23:18:55.1030034+03:00"
       }
     ]
   },
