@@ -21,3 +21,5 @@ D:\Vika\universiti\OOP\HobbyTracker\HobbyTracker\obj\Debug\net8.0-windows\refint
 D:\Vika\universiti\OOP\HobbyTracker\HobbyTracker\obj\Debug\net8.0-windows\HobbyTracker.pdb
 D:\Vika\universiti\OOP\HobbyTracker\HobbyTracker\obj\Debug\net8.0-windows\HobbyTracker.genruntimeconfig.cache
 D:\Vika\universiti\OOP\HobbyTracker\HobbyTracker\obj\Debug\net8.0-windows\ref\HobbyTracker.dll
+D:\Vika\universiti\OOP\HobbyTracker\HobbyTracker\obj\Debug\net8.0-windows\ItemEditorWindow.baml
+D:\Vika\universiti\OOP\HobbyTracker\HobbyTracker\obj\Debug\net8.0-windows\ItemEditorWindow.g.cs

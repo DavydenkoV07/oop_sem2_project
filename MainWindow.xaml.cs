@@ -70,17 +70,34 @@ namespace HobbyTracker
         {
             if (_selectedCategory == null) return;
 
-            string title = NewItemTitleTextBox.Text;
-            if (!string.IsNullOrWhiteSpace(title))
-            {
-                var newItem = new HobbyItem
-                {
-                    Title = title,
-                    Status = ItemStatus.Planned // За замовчуванням ставимо "Хочу подивитись/прочитати"
-                };
+            // Відкриваємо наше нове вікно як діалог
+            var editorWindow = new ItemEditorWindow();
+            editorWindow.Owner = this; // Щоб вікно з'являлося по центру головного
 
-                _manager.AddItemToCategory(_selectedCategory.Id, newItem);
-                NewItemTitleTextBox.Clear();
+            if (editorWindow.ShowDialog() == true)
+            {
+                _manager.AddItemToCategory(_selectedCategory.Id, editorWindow.ItemData);
+                UpdateItemsList();
+            }
+        }
+
+        private void ItemsDataGrid_MouseDoubleClick(object sender, System.Windows.Input.MouseButtonEventArgs e)
+        {
+            if (_selectedCategory == null || ItemsDataGrid.SelectedItem == null) return;
+
+            var selectedItem = (HobbyItem)ItemsDataGrid.SelectedItem;
+            
+            var editorWindow = new ItemEditorWindow(selectedItem);
+            editorWindow.Owner = this;
+
+            if (editorWindow.ShowDialog() == true)
+            {
+                if (editorWindow.IsDeleted)
+                {
+                    _selectedCategory.Items.Remove(selectedItem);
+                }
+                
+                _manager.SaveChanges(); // Зберігаємо зміни у JSON
                 UpdateItemsList();
             }
         }
