@@ -24,3 +24,6 @@ D:\Vika\universiti\OOP\HobbyTracker\HobbyTracker\obj\Debug\net8.0-windows\ref\Ho
 D:\Vika\universiti\OOP\HobbyTracker\HobbyTracker\obj\Debug\net8.0-windows\ItemEditorWindow.baml
 D:\Vika\universiti\OOP\HobbyTracker\HobbyTracker\obj\Debug\net8.0-windows\ItemEditorWindow.g.cs
 D:\Vika\universiti\OOP\HobbyTracker\HobbyTracker\obj\Debug\net8.0-windows\App.baml
+D:\Vika\universiti\OOP\HobbyTracker\HobbyTracker\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Vika\universiti\OOP\HobbyTracker\HobbyTracker\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Vika\universiti\OOP\HobbyTracker\HobbyTracker\bin\Debug\net8.0-windows\MySqlConnector.dll
